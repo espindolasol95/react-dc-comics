@@ -6,4 +6,32 @@
 
 body{
   font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+.header-col{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  
+}
+
+.logo img{
+  height: 70px;
+  padding: 0px 50px;
+
+}
+
+.nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+
+.nav li {
+  font-size: 0.85rem;
+  font-weight: bold;
+
 }
