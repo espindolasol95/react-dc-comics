@@ -1,16 +1,15 @@
 //importazione delle compenenti 
 import Header from "./components/Header";
-//import Header from "./components/Main";
-//import Header from "./components/Footer";
+import Main from "./components/Main";
+
 
 function App() {
   return (
     <>
      <Header/>
+     <Main/>
      
     </>
-   
-    
   );
 }
 
