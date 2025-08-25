@@ -35,3 +35,26 @@ body{
   font-weight: bold;
 
 }
+
+.hero {
+  background: #2c2c2c;
+  color: white;
+  text-align:start;
+  padding: 50px 50px;
+  font-size: 1.4rem;
+  
+}
+.blue-banner {
+  background: #027ef3;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 10px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.blue-banner .item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
