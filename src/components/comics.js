@@ -11,7 +11,7 @@ const comics = [
     artists: [
       "José Luis García-López",
       "Clay Mann",
-      "Rafael Albuquerque"
+      "Rafael Albuquerque" 
     ],
     writers: [
       "Brad Meltzer",

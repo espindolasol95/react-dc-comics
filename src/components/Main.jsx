@@ -1,11 +1,19 @@
 import React from 'react'
+import ComicList from './ComicList';
 
 const Main = () => {
   return (
     <>
      <main className="hero">
-      <img src="/img/jumbotron.jpg" alt="banner" />
+     <img src="/img/jumbotron.jpg" alt="banner" />
     </main>
+     
+     <section className="fumetti">
+        <div className="container">
+          <ComicList />
+        </div>
+      </section>
+
 
     <section className='blue-banner'>
       <div className='item'>
