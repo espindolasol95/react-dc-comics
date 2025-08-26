@@ -4,7 +4,7 @@ const Main = () => {
   return (
     <>
      <main className="hero">
-      <p> -- Content goes here --</p>
+      <img src="/img/jumbotron.jpg" alt="banner" />
     </main>
 
     <section className='blue-banner'>
