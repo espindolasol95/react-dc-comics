@@ -8,16 +8,16 @@ const Header = () => {
     </div>
     <nav className='nav'>
       <ul>
-        <li>CHARACTERS</li>
-        <li>COMICS</li>
-        <li>MOVIES</li>
-        <li>TV</li>
-        <li>GAMES</li>
-        <li>COLLECTIBLES</li>
-        <li>VIDEOS</li>
-        <li>FANS</li>
-        <li>NEWS</li>
-        <li>SHOP</li>
+       <li>characters</li>
+        <li className='active'>comics</li>
+        <li>movies</li>
+        <li>tv</li>
+        <li>games</li>
+        <li>games</li>
+        <li>videos</li>
+        <li>fans</li>
+        <li>news</li>
+        <li>shop</li>
       </ul>
     </nav>
     </header>
