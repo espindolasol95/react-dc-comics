@@ -62,11 +62,11 @@ const ComicList = () => {
   },
   {
     id: 5,
-    title: "Batman #56",
+    title: "Super Messi #56",
     description: "The Dark Knight's looking to drop both the hammer and sickle on the KGBeast. The Russian super-assassin has gone too far, and Batman will stop at nothing to hunt him down. But is the Dark Knight willing to step into the darkness himself to find justice?",
-    thumb: "https://imgs.search.brave.com/3vP5d3cOVOuC0f6Uhm7CkV_qFk5hGj5rE4jK5I6n7dI/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jZG4y/LnBlbmd1aW4uY29t/LmF1L2NvdmVycy9v/cmlnaW5hbC83OTYx/OTQzMTM5OTk4Lmpw/Zw",
+    thumb: "/img/messi.jpg",
     price: "$3.99",
-    series: "Batman",
+    series: "super Messi",
     sale_date: "2018-10-03",
     type: "comic book",
     artists: ["Tony S. Daniel"],
@@ -159,17 +159,26 @@ const ComicList = () => {
 ];
 
 return(
-  <div className='conatiner'>
-    <div className='row'>
+  <div className='conatiner1'>
+    <div className="comics-button">
+         <button>Current Series</button>
+       </div>
+     <div className='row'>
       {comics.map((comic) => (
-      <div className='col'> 
-        <img 
-        src={comic.thumb}
-        alt={comic.title} 
-        />
-        <h3>{comic.title}</h3>
+      <div className='col-16'> 
+       <div className='comic-card'>
+         <img 
+         src={comic.thumb}
+         alt={comic.title} 
+         />
+         <h3>{comic.title}</h3>
+        </div>
       </div>
       ))}
+      <div className="load-more">
+      <button>Load More</button>
+    </div>
+
     </div>
   </div>
 );

@@ -5,9 +5,11 @@ import ComicList from './ComicList';
 const Main = () => {
   return (
     <>
-     <main className="hero">
-     <img src="/img/jumbotron.jpg" alt="banner" />
-    </main>
+      <main className="hero">
+
+       <img src="/img/jumbotron.jpg" alt="banner" />
+       
+      </main>
      
      <section className="fumetti">
         <div className="container">
