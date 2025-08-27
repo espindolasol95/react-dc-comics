@@ -1,6 +1,7 @@
 import React from 'react'
 import ComicList from './ComicList';
 
+
 const Main = () => {
   return (
     <>
@@ -38,7 +39,7 @@ const Main = () => {
       </div>
     </section>
     </>
-  )
-}
+  );
+};
 
 export default Main
