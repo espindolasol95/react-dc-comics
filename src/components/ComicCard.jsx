@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ComicCard = ({ title, thumb, series }) => {
+const ComicCard = ({ title, thumb, }) => {
   return (
     <div>
       <img src={thumb} alt={title} />

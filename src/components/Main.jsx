@@ -2,7 +2,7 @@ import React from 'react'
 import ComicList from './ComicList';
 
 
-const Main = () => {
+const Main = ({comics}) => {
   return (
     <>
       <main className="hero">
@@ -13,7 +13,7 @@ const Main = () => {
      
      <section className="fumetti">
         <div className="container">
-          <ComicList />
+         <ComicList comics={comics} />
         </div>
       </section>
 
